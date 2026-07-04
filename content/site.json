@@ -1,0 +1,283 @@
+{
+  "site": {
+    "name": "João Carneiro",
+    "contact_email": "studio.joaocarneiro@gmail.com",
+    "domain": "https://joao-carneiro.com",
+    "instagram": "https://www.instagram.com/joao__carneiro/",
+    "social_image": "assets/social/whatsapp-thumbnail.jpg"
+  },
+  "works": [
+    {
+      "id": "burial",
+      "title": "Burial",
+      "year": "2026",
+      "category": "work",
+      "status": "available",
+      "medium": "",
+      "dimensions": "",
+      "description_pt": "",
+      "description_en": "",
+      "cover": "assets/burial/burial-1.jpg",
+      "images": [
+        "assets/burial/burial-1.jpg"
+      ],
+      "url": "series/burial.html",
+      "sort_order": 1
+    },
+    {
+      "id": "unsettled-ii",
+      "title": "Unsettled II",
+      "year": "2026",
+      "category": "work",
+      "status": "available",
+      "medium": "",
+      "dimensions": "",
+      "description_pt": "",
+      "description_en": "",
+      "cover": "assets/unsettled/unsettled-ii-1.jpg",
+      "images": [
+        "assets/unsettled/unsettled-ii-1.jpg"
+      ],
+      "url": "series/unsettled-ii.html",
+      "sort_order": 2
+    },
+    {
+      "id": "unsettled-i",
+      "title": "Unsettled I",
+      "year": "2026",
+      "category": "work",
+      "status": "available",
+      "medium": "",
+      "dimensions": "",
+      "description_pt": "",
+      "description_en": "",
+      "cover": "assets/unsettled/unsettled-i.png",
+      "images": [
+        "assets/unsettled/unsettled-i.png"
+      ],
+      "url": "series/unsettled-i.html",
+      "sort_order": 3
+    },
+    {
+      "id": "holding-adrift",
+      "title": "Holding, Adrift",
+      "year": "2026",
+      "category": "work",
+      "status": "available",
+      "medium": "",
+      "dimensions": "",
+      "description_pt": "",
+      "description_en": "",
+      "cover": "assets/holding-adrift/holding-adrift-i.jpg",
+      "images": [
+        "assets/holding-adrift/holding-adrift-i.jpg"
+      ],
+      "url": "series/holding-adrift.html",
+      "sort_order": 4
+    },
+    {
+      "id": "the-fall-of-icarus",
+      "title": "The Fall of Icarus",
+      "year": "2026",
+      "category": "work",
+      "status": "available",
+      "medium": "",
+      "dimensions": "",
+      "description_pt": "",
+      "description_en": "",
+      "cover": "assets/the-fall-of-icarus/the-fall-of-icarus-i.jpg",
+      "images": [
+        "assets/the-fall-of-icarus/the-fall-of-icarus-i.jpg"
+      ],
+      "url": "series/the-fall-of-icarus.html",
+      "sort_order": 5
+    },
+    {
+      "id": "unholy",
+      "title": "Unholy",
+      "year": "2026",
+      "category": "work",
+      "status": "available",
+      "medium": "",
+      "dimensions": "",
+      "description_pt": "",
+      "description_en": "",
+      "cover": "assets/unholy/unholy-i.png",
+      "images": [
+        "assets/unholy/unholy-i.png"
+      ],
+      "url": "series/unholy.html",
+      "sort_order": 6
+    },
+    {
+      "id": "herzog",
+      "title": "Herzog",
+      "year": "2026",
+      "category": "work",
+      "status": "available",
+      "medium": "",
+      "dimensions": "",
+      "description_pt": "",
+      "description_en": "",
+      "cover": "assets/herzog/herzog-i.jpg",
+      "images": [
+        "assets/herzog/herzog-i.jpg"
+      ],
+      "url": "series/herzog.html",
+      "sort_order": 7
+    },
+    {
+      "id": "corbu",
+      "title": "Corbu",
+      "year": "2026",
+      "category": "work",
+      "status": "available",
+      "medium": "",
+      "dimensions": "",
+      "description_pt": "",
+      "description_en": "",
+      "cover": "assets/corbu/corbu-i.png",
+      "images": [
+        "assets/corbu/corbu-i.png"
+      ],
+      "url": "series/corbu.html",
+      "sort_order": 8
+    },
+    {
+      "id": "3333",
+      "title": "3333",
+      "year": "2025",
+      "category": "work",
+      "status": "available",
+      "medium": "",
+      "dimensions": "",
+      "description_pt": "",
+      "description_en": "",
+      "cover": "assets/3333/3333-i.png",
+      "images": [
+        "assets/3333/3333-i.png"
+      ],
+      "url": "series/3333.html",
+      "sort_order": 9
+    },
+    {
+      "id": "triple-a",
+      "title": "Triple A",
+      "year": "2025",
+      "category": "work",
+      "status": "available",
+      "medium": "",
+      "dimensions": "",
+      "description_pt": "",
+      "description_en": "",
+      "cover": "assets/triple-a/triple-a-i.jpg",
+      "images": [
+        "assets/triple-a/triple-a-i.jpg"
+      ],
+      "url": "series/triple-a.html",
+      "sort_order": 10
+    },
+    {
+      "id": "dissipate-into-negative",
+      "title": "Dissipate into negative",
+      "year": "2025",
+      "category": "work",
+      "status": "available",
+      "medium": "",
+      "dimensions": "",
+      "description_pt": "",
+      "description_en": "",
+      "cover": "assets/dissipate into negative/dissipate into negative I.jpg",
+      "images": [
+        "assets/dissipate into negative/dissipate into negative I.jpg"
+      ],
+      "url": "series/dissipate into negative.html",
+      "sort_order": 11
+    },
+    {
+      "id": "jawgrid",
+      "title": "Jawgrid",
+      "year": "2025",
+      "category": "work",
+      "status": "available",
+      "medium": "",
+      "dimensions": "",
+      "description_pt": "",
+      "description_en": "",
+      "cover": "assets/jawgrid/jawgrid I.jpg",
+      "images": [
+        "assets/jawgrid/jawgrid I.jpg"
+      ],
+      "url": "series/jawgrid.html",
+      "sort_order": 12
+    },
+    {
+      "id": "where-s-the-monkeysuit",
+      "title": "Where´s the monkeysuit?",
+      "year": "2025",
+      "category": "work",
+      "status": "available",
+      "medium": "",
+      "dimensions": "",
+      "description_pt": "",
+      "description_en": "",
+      "cover": "assets/wheres the monkey suit/wheres the monkey suit I.png",
+      "images": [
+        "assets/wheres the monkey suit/wheres the monkey suit I.png"
+      ],
+      "url": "series/wheres the monkey suit.html",
+      "sort_order": 13
+    },
+    {
+      "id": "the-number-23",
+      "title": "The number 23",
+      "year": "2025",
+      "category": "work",
+      "status": "available",
+      "medium": "",
+      "dimensions": "",
+      "description_pt": "",
+      "description_en": "",
+      "cover": "assets/the number 23/the number 23 I.jpg",
+      "images": [
+        "assets/the number 23/the number 23 I.jpg"
+      ],
+      "url": "series/the number 23.html",
+      "sort_order": 14
+    },
+    {
+      "id": "untitled",
+      "title": "Untitled",
+      "year": "2025",
+      "category": "work",
+      "status": "available",
+      "medium": "",
+      "dimensions": "",
+      "description_pt": "",
+      "description_en": "",
+      "cover": "assets/untitled/Untitled I.jpg",
+      "images": [
+        "assets/untitled/Untitled I.jpg"
+      ],
+      "url": "series/untitled.html",
+      "sort_order": 15
+    },
+    {
+      "id": "untitled",
+      "title": "Untitled",
+      "year": "2025",
+      "category": "work",
+      "status": "available",
+      "medium": "",
+      "dimensions": "",
+      "description_pt": "",
+      "description_en": "",
+      "cover": "assets/untitled 1/untitled I.png",
+      "images": [
+        "assets/untitled 1/untitled I.png"
+      ],
+      "url": "series/untitled 1.html",
+      "sort_order": 16
+    }
+  ]
+}

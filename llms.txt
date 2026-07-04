@@ -1,0 +1,17 @@
+# João Carneiro
+
+João Carneiro is a Portuguese visual artist and architect based in Lisbon, Portugal. The website presents selected works, studies, biography, CV, contact information and legal information in Portuguese and English.
+
+## Primary pages
+- Home: https://joao-carneiro.netlify.app/
+- Works: https://joao-carneiro.netlify.app/works.html
+- Studies: https://joao-carneiro.netlify.app/studies.html
+- Biography: https://joao-carneiro.netlify.app/about.html
+- CV: https://joao-carneiro.netlify.app/cv.html
+- Contact: https://joao-carneiro.netlify.app/contact.html
+
+## Rights
+All artworks, images and texts are protected by copyright. Reproduction, distribution, publication or commercial use requires prior written authorization.
+
+## Language
+The website is available in Portuguese and English. Artwork titles remain unchanged.
