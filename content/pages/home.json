@@ -1,0 +1,16 @@
+{
+  "artist_image": "/assets/index/foto-index.jpg",
+  "artist_alt": "João Carneiro",
+  "featured": "echoes-before-morning",
+  "announcement": {
+    "enabled": false,
+    "title": "",
+    "text": {
+      "pt": "",
+      "en": "",
+      "fr": ""
+    },
+    "image": "",
+    "link": ""
+  }
+}

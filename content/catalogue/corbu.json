@@ -1,0 +1,36 @@
+{
+  "title": "Corbu",
+  "category": "works",
+  "year": "2026",
+  "technique": {
+    "pt": "Acrílico e spray sobre tela",
+    "en": "Acrylic and spray on canvas",
+    "fr": "Acrylique et peinture aérosol sur toile"
+  },
+  "dimensions": "40 x 50 cm",
+  "availability": "available",
+  "published": true,
+  "order": 80,
+  "legacy_path": "corbu",
+  "cover": "/assets/corbu/corbu-i.png",
+  "gallery": [
+    {
+      "image": "/assets/corbu/corbu-i.png",
+      "alt": "Corbu — vista frontal"
+    },
+    {
+      "image": "/assets/corbu/corbu-ii.jpg",
+      "alt": "Corbu — detalhe"
+    },
+    {
+      "image": "/assets/corbu/corbu-iii.jpg",
+      "alt": "Corbu — detalhe"
+    }
+  ],
+  "description": {
+    "pt": "Retrato de Le Corbusier",
+    "en": "Portrait of Le Corbusier",
+    "fr": "Portrait de Le Corbusier"
+  },
+  "videos": []
+}

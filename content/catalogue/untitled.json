@@ -1,0 +1,32 @@
+{
+  "title": "Untitled",
+  "category": "works",
+  "year": "2025",
+  "technique": {
+    "pt": "Técnica mista sobre tela",
+    "en": "Mixed media on canvas",
+    "fr": "Technique mixte sur toile"
+  },
+  "dimensions": "60 x 80 cm",
+  "availability": "available",
+  "published": true,
+  "order": 150,
+  "legacy_path": "untitled",
+  "cover": "/assets/untitled/Untitled I.jpg",
+  "gallery": [
+    {
+      "image": "/assets/untitled/Untitled I.jpg",
+      "alt": "Untitled — vista frontal"
+    },
+    {
+      "image": "/assets/untitled/Untitled II.jpg",
+      "alt": "Untitled — detalhe"
+    }
+  ],
+  "description": {
+    "pt": "Abstrato",
+    "en": "Abstract",
+    "fr": "Abstrait"
+  },
+  "videos": []
+}

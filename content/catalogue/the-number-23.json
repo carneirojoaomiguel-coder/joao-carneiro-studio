@@ -1,0 +1,32 @@
+{
+  "title": "The number 23",
+  "category": "works",
+  "year": "2025",
+  "technique": {
+    "pt": "Acrílico e spray sobre tela",
+    "en": "Acrylic and spray on canvas",
+    "fr": "Acrylique et peinture aérosol sur toile"
+  },
+  "dimensions": "40 × 50 cm",
+  "availability": "available",
+  "published": true,
+  "order": 140,
+  "legacy_path": "the number 23",
+  "cover": "/assets/the number 23/the number 23 I.jpg",
+  "gallery": [
+    {
+      "image": "/assets/the number 23/the number 23 I.jpg",
+      "alt": "The number 23 — vista frontal"
+    },
+    {
+      "image": "/assets/the number 23/the number 23 II.jpg",
+      "alt": "The number 23 — detalhe"
+    }
+  ],
+  "description": {
+    "pt": "Abstrato",
+    "en": "Abstract",
+    "fr": "Abstrait"
+  },
+  "videos": []
+}

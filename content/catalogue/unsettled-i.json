@@ -1,0 +1,28 @@
+{
+  "title": "Unsettled I",
+  "category": "works",
+  "year": "2026",
+  "technique": {
+    "pt": "Acrílico e spray sobre papel 180 g/m²",
+    "en": "Acrylic and spray on 180 g/m² paper",
+    "fr": "Acrylique et peinture aérosol sur papier 180 g/m²"
+  },
+  "dimensions": "29,7 × 42 cm",
+  "availability": "available",
+  "published": true,
+  "order": 30,
+  "legacy_path": "unsettled-i",
+  "cover": "/assets/unsettled/unsettled-i.png",
+  "gallery": [
+    {
+      "image": "/assets/unsettled/unsettled-i.png",
+      "alt": "Unsettled I — vista frontal"
+    }
+  ],
+  "description": {
+    "pt": "-",
+    "en": "-",
+    "fr": "-"
+  },
+  "videos": []
+}

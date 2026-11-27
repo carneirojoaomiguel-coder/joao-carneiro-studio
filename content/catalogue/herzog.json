@@ -1,0 +1,32 @@
+{
+  "title": "Herzog",
+  "category": "works",
+  "year": "2026",
+  "technique": {
+    "pt": "Acrílico e spray sobre tela",
+    "en": "Acrylic and spray on canvas",
+    "fr": "Acrylique et peinture aérosol sur toile"
+  },
+  "dimensions": "40 x 50 cm",
+  "availability": "available",
+  "published": true,
+  "order": 70,
+  "legacy_path": "herzog",
+  "cover": "/assets/herzog/herzog-i.jpg",
+  "gallery": [
+    {
+      "image": "/assets/herzog/herzog-i.jpg",
+      "alt": "Holding, Adrift — vista frontal"
+    },
+    {
+      "image": "/assets/herzog/herzog-ii.jpg",
+      "alt": "Herzog — detalhe"
+    }
+  ],
+  "description": {
+    "pt": "Retrato de Werner Herzog",
+    "en": "Portrait of Werner Herzog",
+    "fr": "Portrait de Werner Herzog"
+  },
+  "videos": []
+}

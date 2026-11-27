@@ -1,0 +1,41 @@
+{
+  "sections": [
+    {
+      "heading": {
+        "pt": "Formação",
+        "en": "Education",
+        "fr": "Formation"
+      },
+      "body": {
+        "pt": "Universidade Lusófona de Humanidades e Tecnologias — Arquitetura\nEscola Secundária Artística António Arroio — Design de Comunicação",
+        "en": "Universidade Lusófona de Humanidades e Tecnologias — Architecture\nEscola Secundária Artística António Arroio — Communication Design",
+        "fr": "Universidade Lusófona de Humanidades e Tecnologias — Architecture\nEscola Secundária Artística António Arroio — Design de communication"
+      }
+    },
+    {
+      "heading": {
+        "pt": "Projetos",
+        "en": "Projects",
+        "fr": "Projets"
+      },
+      "body": {
+        "pt": "—",
+        "en": "—",
+        "fr": "—"
+      }
+    },
+    {
+      "heading": {
+        "pt": "Exposições",
+        "en": "Exhibitions",
+        "fr": "Expositions"
+      },
+      "body": {
+        "pt": "—",
+        "en": "—",
+        "fr": "—"
+      }
+    }
+  ],
+  "pdf": ""
+}

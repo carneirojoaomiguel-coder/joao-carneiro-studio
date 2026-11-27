@@ -1,0 +1,32 @@
+{
+  "title": "Study B",
+  "category": "studies",
+  "year": "2026",
+  "technique": {
+    "pt": "Acrílico e spray sobre papel 400 g/m²",
+    "en": "Acrylic and spray on 400 g/m² paper",
+    "fr": "Acrylique et peinture aérosol sur papier 400 g/m²"
+  },
+  "dimensions": "50 x 65 cm",
+  "availability": "available",
+  "published": true,
+  "order": 20,
+  "legacy_path": "study b",
+  "cover": "/assets/study b/study b I.jpg",
+  "gallery": [
+    {
+      "image": "/assets/study b/study b I.jpg",
+      "alt": "Study B — imagem 1"
+    },
+    {
+      "image": "/assets/study b/study b II.jpg",
+      "alt": "Study B — imagem 2"
+    }
+  ],
+  "description": {
+    "pt": "-",
+    "en": "-",
+    "fr": "-"
+  },
+  "videos": []
+}

@@ -1,0 +1,32 @@
+{
+  "title": "Dissipate into negative",
+  "category": "works",
+  "year": "2025",
+  "technique": {
+    "pt": "Acrílico e spray sobre tela",
+    "en": "Acrylic and spray on canvas",
+    "fr": "Acrylique et peinture aérosol sur toile"
+  },
+  "dimensions": "40 x 50 cm",
+  "availability": "available",
+  "published": true,
+  "order": 110,
+  "legacy_path": "dissipate into negative",
+  "cover": "/assets/dissipate into negative/dissipate into negative I.jpg",
+  "gallery": [
+    {
+      "image": "/assets/dissipate into negative/dissipate into negative I.jpg",
+      "alt": "Dissipate into negative — vista frontal"
+    },
+    {
+      "image": "/assets/dissipate into negative/dissipate into negative II.jpg",
+      "alt": "Dissipate into negative — detalhe"
+    }
+  ],
+  "description": {
+    "pt": "Homenagem a Vincent Cassel",
+    "en": "Tribute to Vincent Cassel",
+    "fr": "Hommage à Vincent Cassel"
+  },
+  "videos": []
+}

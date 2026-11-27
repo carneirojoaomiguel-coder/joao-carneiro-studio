@@ -1,0 +1,32 @@
+{
+  "title": "Nightcrawler II",
+  "category": "studies",
+  "year": "2026",
+  "technique": {
+    "pt": "Acrílico e spray sobre papel 450 g/m²",
+    "en": "Acrylic and spray on 450 g/m² paper",
+    "fr": "Acrylique et peinture aérosol sur papier 450 g/m²"
+  },
+  "dimensions": "50 x 65 cm",
+  "availability": "available",
+  "published": true,
+  "order": 80,
+  "legacy_path": "nightcrawler-ii",
+  "cover": "/assets/nightcrawler-ii/nightcrawler-ii-frontal.jpeg",
+  "gallery": [
+    {
+      "image": "/assets/nightcrawler-ii/nightcrawler-ii-frontal.jpeg",
+      "alt": "Nightcrawler II — vista frontal"
+    },
+    {
+      "image": "/assets/nightcrawler-ii/nightcrawler-ii-lateral.jpg",
+      "alt": "Nightcrawler II — vista lateral"
+    }
+  ],
+  "description": {
+    "pt": "-",
+    "en": "-",
+    "fr": "-"
+  },
+  "videos": []
+}

@@ -1,0 +1,32 @@
+{
+  "title": "Where´s the monkeysuit?",
+  "category": "works",
+  "year": "2025",
+  "technique": {
+    "pt": "Acrílico e spray sobre tela",
+    "en": "Acrylic and spray on canvas",
+    "fr": "Acrylique et peinture aérosol sur toile"
+  },
+  "dimensions": "40 x 50",
+  "availability": "available",
+  "published": true,
+  "order": 130,
+  "legacy_path": "wheres the monkey suit",
+  "cover": "/assets/wheres the monkey suit/wheres the monkey suit I.png",
+  "gallery": [
+    {
+      "image": "/assets/wheres the monkey suit/wheres the monkey suit I.png",
+      "alt": "Where´s the monkey suit — vista frontal"
+    },
+    {
+      "image": "/assets/wheres the monkey suit/wheres the monkey suit II.jpg",
+      "alt": "Where´s the monkey suit — detalhe"
+    }
+  ],
+  "description": {
+    "pt": "Retrato de MF DOOM",
+    "en": "Portrait of MF DOOM",
+    "fr": "Portrait de MF DOOM"
+  },
+  "videos": []
+}

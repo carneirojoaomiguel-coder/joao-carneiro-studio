@@ -1,0 +1,36 @@
+{
+  "title": "3333",
+  "category": "works",
+  "year": "2025",
+  "technique": {
+    "pt": "Acrílico e spray sobre tela",
+    "en": "Acrylic and spray on canvas",
+    "fr": "Acrylique et peinture aérosol sur toile"
+  },
+  "dimensions": "50 × 65 cm",
+  "availability": "available",
+  "published": true,
+  "order": 90,
+  "legacy_path": "3333",
+  "cover": "/assets/3333/3333-i.png",
+  "gallery": [
+    {
+      "image": "/assets/3333/3333-i.png",
+      "alt": "3333 — vista frontal"
+    },
+    {
+      "image": "/assets/3333/3333-ii.png",
+      "alt": "3333 — detalhe"
+    },
+    {
+      "image": "/assets/3333/3333-iii.png",
+      "alt": "3333 — detalhe"
+    }
+  ],
+  "description": {
+    "pt": "Abstrato",
+    "en": "Abstract",
+    "fr": "Abstrait"
+  },
+  "videos": []
+}

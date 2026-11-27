@@ -1,64 +1,26 @@
 [build]
-  publish = "."
+  command = "npm run build"
+  publish = "dist"
 
-[[redirects]]
-  from = "/admin"
-  to = "/admin/"
-  status = 301
+[build.environment]
+  NODE_VERSION = "22"
 
 [[headers]]
-  for = "/admin/config.yml"
+  for = "/admin/*"
   [headers.values]
-    Content-Type = "text/yaml; charset=utf-8"
-    Cache-Control = "no-cache"
+    X-Robots-Tag = "noindex, nofollow"
+    Cache-Control = "no-store"
+    X-Frame-Options = "SAMEORIGIN"
+    Referrer-Policy = "strict-origin-when-cross-origin"
 
 [[headers]]
   for = "/assets/social/whatsapp-thumbnail.jpg"
   [headers.values]
-    Cache-Control = "public, max-age=31536000, immutable"
+    Cache-Control = "public, max-age=3600, must-revalidate"
     Content-Type = "image/jpeg"
 
-[[redirects]]
-  from = "/inquire"
-  to = "/inquire.html"
-  status = 200
-[[redirects]]
-  from = "/inquire/"
-  to = "/inquire.html"
-  status = 200
-[[redirects]]
-  from = "/inquires"
-  to = "/inquire.html"
-  status = 200
-[[redirects]]
-  from = "/inquires/"
-  to = "/inquire.html"
-  status = 200
-[[redirects]]
-  from = "/enquire"
-  to = "/inquire.html"
-  status = 200
-[[redirects]]
-  from = "/enquire/"
-  to = "/inquire.html"
-  status = 200
-[[redirects]]
-  from = "/enquiries"
-  to = "/inquire.html"
-  status = 200
-[[redirects]]
-  from = "/enquiries/"
-  to = "/inquire.html"
-  status = 200
-[[redirects]]
-  from = "/thank-you"
-  to = "/thank-you/index.html"
-  status = 200
-[[redirects]]
-  from = "/thank-you/"
-  to = "/thank-you/index.html"
-  status = 200
-[[redirects]]
-  from = "/thank-you.html"
-  to = "/thank-you/index.html"
-  status = 200
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"

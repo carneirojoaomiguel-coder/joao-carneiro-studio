@@ -1,0 +1,32 @@
+{
+  "title": "Jawgrid",
+  "category": "works",
+  "year": "2025",
+  "technique": {
+    "pt": "Acrílico e spray sobre tela",
+    "en": "Acrylic and spray on canvas",
+    "fr": "Acrylique et peinture aérosol sur toile"
+  },
+  "dimensions": "40 x 50 cm",
+  "availability": "available",
+  "published": true,
+  "order": 120,
+  "legacy_path": "jawgrid",
+  "cover": "/assets/jawgrid/jawgrid I.jpg",
+  "gallery": [
+    {
+      "image": "/assets/jawgrid/jawgrid I.jpg",
+      "alt": "Jawgrid — vista frontal"
+    },
+    {
+      "image": "/assets/jawgrid/jawgrid II.jpg",
+      "alt": "Jawgrid — detalhe"
+    }
+  ],
+  "description": {
+    "pt": "Abstrato",
+    "en": "Abstract",
+    "fr": "Abstrait"
+  },
+  "videos": []
+}

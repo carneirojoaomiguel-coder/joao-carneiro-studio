@@ -1,0 +1,28 @@
+{
+  "title": "Marseille",
+  "category": "studies",
+  "year": "2026",
+  "technique": {
+    "pt": "Acrílico e spray sobre papel 450 g/m²",
+    "en": "Acrylic and spray on 450 g/m² paper",
+    "fr": "Acrylique et peinture aérosol sur papier 450 g/m²"
+  },
+  "dimensions": "50 x 65 cm",
+  "availability": "available",
+  "published": true,
+  "order": 60,
+  "legacy_path": "marseille",
+  "cover": "/assets/marseille/marseille-i-frontal.jpg",
+  "gallery": [
+    {
+      "image": "/assets/marseille/marseille-i-frontal.jpg",
+      "alt": "Marseille — imagem 1"
+    }
+  ],
+  "description": {
+    "pt": "-",
+    "en": "-",
+    "fr": "-"
+  },
+  "videos": []
+}

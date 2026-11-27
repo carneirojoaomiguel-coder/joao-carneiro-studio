@@ -1,0 +1,36 @@
+{
+  "title": "Burial",
+  "category": "works",
+  "year": "2026",
+  "technique": {
+    "pt": "Acrílico e tinta spray sobre madeira",
+    "en": "Acrylic and spray paint on wood",
+    "fr": "Acrylique et peinture aérosol sur bois"
+  },
+  "dimensions": "32 × 50 cm",
+  "availability": "available",
+  "published": true,
+  "order": 10,
+  "legacy_path": "burial",
+  "cover": "/assets/burial/burial-1.jpg",
+  "gallery": [
+    {
+      "image": "/assets/burial/burial-1.jpg",
+      "alt": "Burial — vista frontal"
+    },
+    {
+      "image": "/assets/burial/burial-2.jpg",
+      "alt": "Burial — detalhe"
+    },
+    {
+      "image": "/assets/burial/burial-3.jpg",
+      "alt": "Burial — vista lateral"
+    }
+  ],
+  "description": {
+    "pt": "-",
+    "en": "-",
+    "fr": "-"
+  },
+  "videos": []
+}

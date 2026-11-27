@@ -1,54 +1,15 @@
 <!doctype html>
-<html lang="pt">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Admin — João Carneiro</title>
-  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
-  <style>
-    :root{--bg:#f7f7f5;--panel:#fff;--text:#202326;--muted:#777;--line:#ddd;--dark:#111;--danger:#9d2f2f;--ok:#1d7a52}
-    *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:14px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif}header{height:70px;border-bottom:1px solid var(--line);display:flex;align-items:center;justify-content:space-between;padding:0 28px;background:#fbfbfa;position:sticky;top:0;z-index:5}h1{font-size:18px;letter-spacing:.08em;text-transform:uppercase;font-weight:500;margin:0}h2{font-size:24px;margin:0 0 20px}h3{font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:0 0 12px}.layout{display:grid;grid-template-columns:240px 1fr;min-height:calc(100vh - 70px)}nav{border-right:1px solid var(--line);padding:24px;background:#fafaf8}nav a{display:block;text-decoration:none;color:var(--text);padding:12px 0;border-bottom:1px solid transparent}nav a.active{border-bottom-color:var(--text)}main{padding:28px;max-width:1220px}.panel{background:var(--panel);border:1px solid var(--line);padding:24px;margin-bottom:22px}.grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}.full{grid-column:1/-1}label{display:block;font-size:12px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);margin:0 0 6px}input,textarea,select{width:100%;padding:12px;border:1px solid var(--line);background:#fff;color:var(--text);font:inherit;border-radius:0}textarea{min-height:110px;resize:vertical}button,.button{border:1px solid var(--dark);background:var(--dark);color:#fff;padding:11px 15px;cursor:pointer;text-decoration:none;font:inherit;display:inline-flex;align-items:center;gap:8px}.secondary{background:transparent;color:var(--text);border-color:var(--line)}.danger{background:var(--danger);border-color:var(--danger)}button:disabled{opacity:.5;cursor:not-allowed}.toolbar{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:18px}.notice{padding:14px 16px;border:1px solid #e2d89a;background:#fff8d6;margin-bottom:16px}.notice.ok{background:#e8f7ee;border-color:#acdabc}.notice.bad{background:#f8e6e6;border-color:#dfb4b4}.hidden{display:none!important}.work{display:grid;grid-template-columns:84px 1fr auto;gap:16px;align-items:center;border-top:1px solid var(--line);padding:14px 0}.work:first-child{border-top:0}.work img{width:84px;height:64px;object-fit:cover;background:#eee}.meta{color:var(--muted);font-size:13px}.images{display:flex;gap:10px;flex-wrap:wrap;margin-top:10px}.images div{border:1px solid var(--line);padding:8px;background:#fafafa}.images img{width:120px;height:90px;object-fit:cover;display:block;margin-bottom:6px}.help{max-width:780px}.help code{background:#eee;padding:2px 5px}.small{font-size:12px;color:var(--muted)}@media(max-width:800px){.layout{grid-template-columns:1fr}nav{border-right:0;border-bottom:1px solid var(--line)}main{padding:18px}.grid{grid-template-columns:1fr}.toolbar{align-items:flex-start;flex-direction:column}}
-  </style>
-</head>
-<body>
-<header><h1>João Carneiro — Admin</h1><div><a class="button secondary" href="/" target="_blank">Ver site</a> <button class="secondary" id="logoutBtn">Sair</button></div></header>
-<div class="layout">
-<nav><a href="#works" class="active">Obras</a><a href="#settings">Definições</a><a href="#help">Ajuda</a></nav>
-<main>
-  <div id="notice" class="notice hidden"></div>
-  <section id="loginPanel" class="panel">
-    <h2>Entrar no painel</h2>
-    <p>Este painel publica alterações diretamente no GitHub. Não usa Decap nem Git Gateway.</p>
-    <div class="grid">
-      <div><label>GitHub token</label><input id="token" type="password" placeholder="github_pat_..."></div>
-      <div><label>Repositório</label><input id="repoInfo" readonly></div>
-      <div class="full"><button id="loginBtn">Entrar</button> <button class="secondary" id="saveTokenBtn">Guardar token neste computador</button></div>
-    </div>
-  </section>
-  <section id="worksPanel" class="hidden">
-    <div class="toolbar"><h2>Obras</h2><div><button id="newBtn">Nova obra</button> <button class="secondary" id="reloadBtn">Recarregar</button></div></div>
-    <div class="panel" id="workList"></div>
-    <div class="panel hidden" id="editor">
-      <h2 id="editorTitle">Nova obra</h2>
-      <div class="grid">
-        <input id="id" type="hidden">
-        <div><label>Título</label><input id="title"></div>
-        <div><label>Ano</label><input id="year"></div>
-        <div><label>Técnica / materiais</label><input id="medium"></div>
-        <div><label>Dimensões</label><input id="dimensions"></div>
-        <div><label>Estado</label><select id="status"><option value="available">Disponível</option><option value="reserved">Reservada</option><option value="sold">Vendida</option><option value="hidden">Oculta</option></select></div>
-        <div><label>Ordem</label><input id="sort_order" type="number" value="0"></div>
-        <div class="full"><label>Descrição PT</label><textarea id="description_pt"></textarea></div>
-        <div class="full"><label>Descrição EN</label><textarea id="description_en"></textarea></div>
-        <div class="full"><label>Adicionar imagens</label><input id="imageInput" type="file" accept="image/*" multiple><p class="small">As imagens são guardadas em <code>assets/uploads/</code> no GitHub.</p><div class="images" id="images"></div></div>
-        <div class="full"><button id="saveBtn">Guardar e publicar</button> <button class="secondary" id="cancelBtn">Cancelar</button> <button class="danger" id="deleteBtn">Apagar</button></div>
-      </div>
-    </div>
-  </section>
-  <section id="settingsPanel" class="panel hidden"><h2>Definições</h2><p>Contacto atual:</p><input id="contactEmail"><p class="small">As definições são guardadas no ficheiro <code>content/site.json</code>.</p><br><button id="saveSettingsBtn">Guardar definições</button></section>
-  <section id="helpPanel" class="panel help hidden"><h2>Ajuda</h2><p><strong>Como obter o token:</strong> GitHub → Settings → Developer settings → Personal access tokens → Fine-grained token.</p><p>Dá acesso apenas ao repositório <code>joao-carneiro-site</code> e permissão <strong>Contents: Read and write</strong>.</p><p>Depois cola o token aqui. Quando guardares uma obra, o GitHub atualiza os ficheiros e o Netlify publica automaticamente.</p><p>Não publiques o token em lado nenhum. Ele fica só no teu browser se clicares em “Guardar token”.</p></section>
-</main>
-</div>
-<script src="/admin/admin.js"></script>
-</body>
-</html>
+<html lang="pt"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>Gestão do site — João Carneiro</title><link rel="icon" href="/assets/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="/admin/style.css"></head><body>
+<header class="admin-header"><a class="brand" href="/admin/">João Carneiro <span>Gestão do site</span></a><nav><a href="/admin/ajuda.html">Ajuda</a><a href="/" target="_blank" rel="noopener">Ver site</a></nav></header>
+<main class="admin-main"><section class="intro"><p class="eyebrow">Área de gestão</p><h1>Gerir o teu site.</h1><p class="lead">Adiciona uma peça, atualiza um texto ou muda a imagem de destaque. Tudo no mesmo lugar.</p><a class="button primary" href="/admin/editor.html">Entrar no backoffice</a></section>
+<aside id="setup" class="notice" hidden><strong>Falta concluir a ligação inicial</strong><p>O painel está preparado. Para guardar e publicar no teu site, é necessário ligá-lo ao teu GitHub e ao Netlify, uma única vez.</p><a href="/admin/ajuda.html#instalacao">Como ativar</a></aside>
+<section class="overview" aria-label="Conteúdo do site"><div><span id="works-count">—</span><p>Obras</p></div><div><span id="studies-count">—</span><p>Estudos</p></div><div><span>PT / EN / FR</span><p>Textos em três idiomas</p></div></section>
+<section class="cards" aria-label="Ferramentas de gestão">
+<a class="card" href="/admin/editor.html#collections/artworks"><span class="icon" aria-hidden="true">▧</span><h2>Obras e estudos</h2><p>Cria peças, organiza fotografias e vídeos, edita as fichas e a disponibilidade.</p><span class="card-action">Gerir catálogo</span></a>
+<a class="card" href="/admin/editor.html#collections/pages/entries/home"><span class="icon" aria-hidden="true">◫</span><h2>Página inicial</h2><p>Escolhe a fotografia, a peça em destaque e a informação sobre uma exposição.</p><span class="card-action">Editar início</span></a>
+<a class="card" href="/admin/editor.html#collections/pages/entries/biography"><span class="icon text-icon" aria-hidden="true">Aa</span><h2>Biografia e CV</h2><p>Atualiza os textos, acrescenta exposições e disponibiliza o teu CV em PDF.</p><span class="card-action">Editar páginas</span></a>
+<a class="card" href="/admin/editor.html#media"><span class="icon" aria-hidden="true">▤</span><h2>Biblioteca multimédia</h2><p>Carrega imagens, vídeos e documentos para utilizares no site.</p><span class="card-action">Gerir ficheiros</span></a>
+<a class="card" href="/admin/editor.html#collections/settings/entries/settings"><span class="icon" aria-hidden="true">✳</span><h2>Contactos e partilhas</h2><p>Altera o email, o Instagram e a imagem utilizada ao partilhar o site.</p><span class="card-action">Editar contactos</span></a>
+<a class="card help-card" href="/admin/ajuda.html"><span class="icon" aria-hidden="true">?</span><h2>Como publicar</h2><p>Guarda um rascunho, revê a pré-visualização e publica quando estiver pronto.</p><span class="card-action">Consultar guia</span></a>
+</section>
+<footer class="admin-footer"><p>As alterações só entram no site depois de as publicares e de a atualização terminar.</p><p>O acesso ao editor usa a tua conta GitHub.</p></footer></main><script src="/admin/dashboard.js"></script></body></html>

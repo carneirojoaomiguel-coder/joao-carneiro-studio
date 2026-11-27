@@ -1,0 +1,36 @@
+{
+  "title": "Triple A",
+  "category": "works",
+  "year": "2025",
+  "technique": {
+    "pt": "Acrílico e spray sobre tela",
+    "en": "Acrylic and spray on canvas",
+    "fr": "Acrylique et peinture aérosol sur toile"
+  },
+  "dimensions": "40 x 50 cm",
+  "availability": "available",
+  "published": true,
+  "order": 100,
+  "legacy_path": "triple-a",
+  "cover": "/assets/triple-a/triple-a-i.jpg",
+  "gallery": [
+    {
+      "image": "/assets/triple-a/triple-a-i.jpg",
+      "alt": "Triple A — vista frontal"
+    },
+    {
+      "image": "/assets/triple-a/triple-a-ii.jpg",
+      "alt": "Triple A — detalhe"
+    },
+    {
+      "image": "/assets/triple-a/triple-a-iii.jpg",
+      "alt": "Triple A — detalhe"
+    }
+  ],
+  "description": {
+    "pt": "Abstrato",
+    "en": "Abstract",
+    "fr": "Abstrait"
+  },
+  "videos": []
+}

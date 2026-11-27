@@ -1,0 +1,32 @@
+{
+  "title": "Study D",
+  "category": "studies",
+  "year": "2026",
+  "technique": {
+    "pt": "Acrílico e spray sobre papel 450 g/m²",
+    "en": "Acrylic and spray on 450 g/m² paper",
+    "fr": "Acrylique et peinture aérosol sur papier 450 g/m²"
+  },
+  "dimensions": "50 x 65 cm",
+  "availability": "available",
+  "published": true,
+  "order": 40,
+  "legacy_path": "study d",
+  "cover": "/assets/study d/study d I.png",
+  "gallery": [
+    {
+      "image": "/assets/study d/study d I.png",
+      "alt": "Study D — imagem 1"
+    },
+    {
+      "image": "/assets/study d/study d II.png",
+      "alt": "Study D — imagem 2"
+    }
+  ],
+  "description": {
+    "pt": "-",
+    "en": "-",
+    "fr": "-"
+  },
+  "videos": []
+}

@@ -1,18 +1,15 @@
 {
   "name": "João Carneiro",
   "short_name": "João Carneiro",
-  "description": "Website of João Carneiro, Portuguese visual artist and architect.",
   "start_url": "/",
-  "scope": "/",
   "display": "standalone",
-  "background_color": "#ffffff",
-  "theme_color": "#111111",
+  "background_color": "#f6f3ea",
+  "theme_color": "#f6f3ea",
   "icons": [
     {
-      "src": "/assets/favicon.svg",
+      "src": "assets/favicon.svg",
       "sizes": "any",
-      "type": "image/svg+xml",
-      "purpose": "any maskable"
+      "type": "image/svg+xml"
     }
   ]
 }

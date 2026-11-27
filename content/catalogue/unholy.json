@@ -1,0 +1,32 @@
+{
+  "title": "Unholy",
+  "category": "works",
+  "year": "2026",
+  "technique": {
+    "pt": "Acrílico e spray sobre tela",
+    "en": "Acrylic and spray on canvas",
+    "fr": "Acrylique et peinture aérosol sur toile"
+  },
+  "dimensions": "40 x 50 cm",
+  "availability": "available",
+  "published": true,
+  "order": 60,
+  "legacy_path": "unholy",
+  "cover": "/assets/unholy/unholy-i.png",
+  "gallery": [
+    {
+      "image": "/assets/unholy/unholy-i.png",
+      "alt": "Holding, Adrift — vista frontal"
+    },
+    {
+      "image": "/assets/unholy/unholy-ii.png",
+      "alt": "Holding, Adrift — detalhe"
+    }
+  ],
+  "description": {
+    "pt": "Entre tensões armadas e apelos à unidade, a Europa parece mais hesitante do que decisiva. As respostas políticas oscilam entre planeamento cauteloso e paralisia evidente, enquanto velhos interesses nacionais continuam a bloquear uma visão comum. Neste equilíbrio frágil, o verdadeiro perigo não é apenas o conflito, mas a incapacidade de escolher uma direção e continuar à deriva.",
+    "en": "Caught between armed tensions and calls for unity, Europe feels more hesitant than decisive. Political responses shift between careful planning and outright paralysis, while old national interests keep getting in the way of a shared vision. In this fragile balance, the real danger is not just conflict, it is failing to choose a direction and quietly drifting along.",
+    "fr": "Prise entre tensions armées et appels à l’unité, l’Europe paraît plus hésitante que décisive. Les réponses politiques oscillent entre planification prudente et paralysie manifeste, tandis que d’anciens intérêts nationaux continuent d’entraver une vision commune. Dans cet équilibre fragile, le véritable danger n’est pas seulement le conflit, mais l’incapacité à choisir une direction et à dériver silencieusement."
+  },
+  "videos": []
+}
